@@ -53,10 +53,10 @@ fun GoalScreen(
             Row {
                 SelectableButton(
                     text = stringResource(id = R.string.lose),
-                    isSelected = viewModel.selectedGoal is GoalType.LooseWeight,
+                    isSelected = viewModel.selectedGoal is GoalType.LoseWeight,
                     color = MaterialTheme.colors.primaryVariant,
                     selectedTextColor = Color.White,
-                    onClick = { viewModel.onGoalTypeSelect(GoalType.LooseWeight) },
+                    onClick = { viewModel.onGoalTypeSelect(GoalType.LoseWeight) },
                     textStyle = MaterialTheme.typography.button.copy(
                         fontWeight = FontWeight.Normal
                     )
