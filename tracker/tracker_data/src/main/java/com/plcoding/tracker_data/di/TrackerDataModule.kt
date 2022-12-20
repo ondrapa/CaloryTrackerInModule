@@ -44,7 +44,6 @@ object TrackerDataModule {
             .create()
     }
 
-
     @Provides
     @Singleton
     fun provideTrackerDatabase(app: Application): TrackerDatabase {
